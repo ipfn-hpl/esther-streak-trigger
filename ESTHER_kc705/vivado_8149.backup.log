@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov  4 12:24:23 2019
+# Process ID: 8149
+# Current directory: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705
+# Command line: vivado
+# Log file: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/vivado.log
+# Journal file: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 6223.570 ; gain = 233.086 ; free physical = 3866 ; free virtual = 42086
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov  4 13:40:41 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Mon Nov  4 13:40:41 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov  4 14:34:56 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Mon Nov  4 14:34:56 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov  4 15:12:39 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Mon Nov  4 15:12:39 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov  4 15:15:03 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Mon Nov  4 15:15:03 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-5777] IP Instance 'pcie_7x_0' cannot be used in a module reference: The 'xilinx.com:ip:pcie_7x:3.3' core does not support module reference.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  4 16:09:04 2019...
