@@ -1,0 +1,2 @@
+Shock wave speed= 2.861067 km/s
+ Confirmation speed= 5.512321 km/s

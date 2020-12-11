@@ -1,0 +1,1188 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:02:38 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 26363
+License: Customer
+
+Current time: 	Thu Oct 03 18:47:51 WEST 2019
+Time zone: 	Western European Time (Europe/Lisbon)
+
+OS: PRETTY_NAME="Debian GNU/Linux 10 (buster)"
+OS Version: 4.19.0-6-amd64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 13 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/Xilinx/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/home/Xilinx/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	bernardo
+User home directory: /home/bernardo
+User working directory: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/Xilinx/Vivado
+HDI_APPROOT: /home/Xilinx/Vivado/2018.2
+RDI_DATADIR: /home/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: /home/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/bernardo/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/bernardo/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /home/bernardo/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/home/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/vivado.log
+Vivado journal file location: 	/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-26363-marte-sb1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@metis.ipfn.ist.utl.pt
+XILINX_DSP: /home/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: /home/Xilinx/Vivado/2018.2
+XILINX_VIVADO: /home/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: /home/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	172 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 875 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 63 MB (+63729kb) [00:00:07]
+// [Engine Memory]: 874 MB (+765291kb) [00:00:07]
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 12, 133); // dn (ae, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 886 MB. GUI used memory: 31 MB. Current time: 10/3/19 6:47:53 PM WEST
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // aa (ck)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Opening Vivado Project: /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 959 MB (+43288kb) [00:00:16]
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'. 
+// [GUI Memory]: 67 MB (+879kb) [00:00:19]
+// Project name: pcie_ep; location: /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep; part: xc7k325tffg900-2
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,015 MB (+7890kb) [00:00:20]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 72 MB (+1274kb) [00:00:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 43 MB. Current time: 10/3/19 6:48:08 PM WEST
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ck): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 51 MB. Current time: 10/3/19 6:48:21 PM WEST
+// Tcl Message: close_project 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+dismissDialog("Close Project"); // bx (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 12 seconds
+setFileChooser("/home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr");
+// Opening Vivado Project: /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 78 MB (+2651kb) [00:00:56]
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'. 
+// Project name: pcie_ep; location: /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep; part: xc7k325tffg900-2
+// 'i' command handler elapsed time: 16 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 45 MB. Current time: 10/3/19 6:48:43 PM WEST
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 12 seconds
+setFileChooser("/home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_7x_0_ex/pcie_7x_0_ex.xpr");
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 42 MB. Current time: 10/3/19 6:49:15 PM WEST
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_7x_0_ex/pcie_7x_0_ex.xpr. Version: Vivado v2018.2 
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_7x_0_ex/pcie_7x_0_ex.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'. 
+// Project name: pcie_7x_0_ex; location: /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_7x_0_ex; part: xc7k325tffg900-2
+// 'i' command handler elapsed time: 18 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 1, true); // B (D, ck) - Node
+// [GUI Memory]: 83 MB (+1456kb) [00:01:53]
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 5); // B (D, ck)
+// [GUI Memory]: 87 MB (+52kb) [00:02:24]
+// [GUI Memory]: 93 MB (+968kb) [00:02:39]
+// Elapsed time: 223 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v), pcie_7x_0_i : pcie_7x_0 (pcie_7x_0.xci)]", 4, false); // B (D, ck)
+// Elapsed time: 23 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // i (c, ck)
+// [GUI Memory]: 98 MB (+159kb) [00:07:26]
+// [GUI Memory]: 103 MB (+140kb) [00:07:41]
+// Elapsed time: 95 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // aa (ck)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,036 MB. GUI used memory: 44 MB. Current time: 10/3/19 6:55:35 PM WEST
+// Opening Vivado Project: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,090 MB (+25213kb) [00:08:01]
+// Tcl Message: open_project /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bernardo/FPGA/ad-ipfn-hdl/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 6223.109 ; gain = 58.172 ; free physical = 177 ; free virtual = 39169 
+// Project name: fmcjesdadc1_kc705; location: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705; part: xc7k325tffg900-2
+// Elapsed time: 11 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,153 MB (+9003kb) [00:08:08]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1); // B (D, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,153 MB. GUI used memory: 64 MB. Current time: 10/3/19 6:55:53 PM WEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 53 seconds
+String[] filenames31467 = {"/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_EP.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_EP_MEM_ACCESS.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_RX_ENGINE.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_TO_CTRL.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_TX_ENGINE.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_7x_0_pipe_clock.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_7x_0_support.v", "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/xilinx_pcie_2_1_ep_7x.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 60 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,216 MB (+6371kb) [00:09:20]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,187 MB. GUI used memory: 66 MB. Current time: 10/3/19 6:57:13 PM WEST
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8); // B (D, ck)
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : xil_defaultlib.pcie_app_7x]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : xil_defaultlib.pcie_app_7x]", 10, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_app_7x.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_app_7x.v 
+dismissDialog("Add Sources"); // bx (ck)
+// [GUI Memory]: 109 MB (+1781kb) [00:10:24]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,207 MB. GUI used memory: 66 MB. Current time: 10/3/19 6:58:13 PM WEST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7, true); // B (D, ck) - Node
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 603ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 10 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "xilinx_pcie_2_1_ep_7x.v"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 12 seconds
+selectCodeEditor("xilinx_pcie_2_1_ep_7x.v", 3, 307); // ce (w, aG)
+typeControlKey((HResource) null, "xilinx_pcie_2_1_ep_7x.v", 'c'); // ce (w, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "xilinx_pcie_2_1_ep_7x.v"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceOtoP.Project_AUTOMATIC_UPDATE_MANUAL_COMPILE_ORDER, "Automatic Update, Manual Compile Order"); // R (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: set_property source_mgmt_mode DisplayOnly [current_project] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,266 MB. GUI used memory: 68 MB. Current time: 10/3/19 6:59:18 PM WEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 10 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "system_top.v"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 10 seconds
+selectCodeEditor("system_top.v", 583, 433); // ce (w, aG)
+selectCodeEditor("system_top.v", 231, 426); // ce (w, aG)
+// Elapsed time: 11 seconds
+selectCodeEditor("system_top.v", 4, 404); // ce (w, aG)
+// [GUI Memory]: 118 MB (+3025kb) [00:12:14]
+// Elapsed time: 13 seconds
+selectCodeEditor("system_top.v", 1, 445); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("xilinx_pcie_2_1_ep_7x.v", 532, 305); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("xilinx_pcie_2_1_ep_7x.v", 135, 174); // ce (w, ck)
+selectCodeEditor("xilinx_pcie_2_1_ep_7x.v", 135, 174, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "xilinx_pcie_2_1_ep_7x.v", 'c'); // ce (w, ck)
+// Elapsed time: 37 seconds
+selectCodeEditor("system_top.v", 241, 413); // ce (w, aG)
+// Elapsed time: 20 seconds
+selectCodeEditor("system_top.v", 390, 145); // ce (w, aG)
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 15, 395); // ce (w, aG)
+selectCodeEditor("system_top.v", 132, 410); // ce (w, aG)
+selectCodeEditor("system_top.v", 95, 412); // ce (w, aG)
+// Elapsed time: 20 seconds
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 182, 425); // ce (w, aG)
+selectCodeEditor("system_top.v", 182, 425, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 22, 340); // ce (w, aG)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, aG)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, aG)
+selectCodeEditor("system_top.v", 165, 438); // ce (w, aG)
+selectCodeEditor("system_top.v", 165, 438, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 24, 351); // ce (w, aG)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, aG)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, aG)
+selectCodeEditor("system_top.v", 357, 487); // ce (w, aG)
+selectCodeEditor("system_top.v", 357, 487, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 28, 368); // ce (w, aG)
+selectCodeEditor("system_top.v", 342, 504); // ce (w, aG)
+selectCodeEditor("system_top.v", 342, 504, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 22, 377); // ce (w, aG)
+selectCodeEditor("system_top.v", 339, 518); // ce (w, aG)
+selectCodeEditor("system_top.v", 339, 518, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 26, 394); // ce (w, aG)
+// Elapsed time: 25 seconds
+selectCodeEditor("system_top.v", 57, 313); // ce (w, aG)
+selectCodeEditor("system_top.v", 59, 308); // ce (w, aG)
+selectCodeEditor("system_top.v", 59, 308, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, aG)
+selectCodeEditor("system_top.v", 105, 310); // ce (w, aG)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, aG)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, aG)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dockFrame(PAResourceOtoP.PAViews_CODE, "system_top.v"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+// [Engine Memory]: 1,316 MB (+40655kb) [00:15:46]
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v)]", 8); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 11); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v)]", 12); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v)]", 13); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_MEM_inst : PIO_EP_MEM_ACCESS (PIO_EP_MEM_ACCESS.v)]", 14); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_MEM_inst : PIO_EP_MEM_ACCESS (PIO_EP_MEM_ACCESS.v), EP_MEM_inst : xil_defaultlib.EP_MEM]", 15, false); // B (D, ck)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_MEM_inst : PIO_EP_MEM_ACCESS (PIO_EP_MEM_ACCESS.v), EP_MEM_inst : xil_defaultlib.EP_MEM]", 15, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/EP_MEM.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/EP_MEM.v 
+dismissDialog("Add Sources"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,301 MB. GUI used memory: 69 MB. Current time: 10/3/19 7:04:23 PM WEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v), pcie_7x_0_i : xil_defaultlib.pcie_7x_0]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v), pcie_7x_0_i : xil_defaultlib.pcie_7x_0]", 10, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 19 seconds
+setFileChooser("/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (ck)
+// bx (ck):  Add Sources  : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: add_files -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 74 MB. Current time: 10/3/19 7:05:13 PM WEST
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+dismissDialog("Add Sources"); // bx (ck)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v), pcie_7x_0_i : pcie_7x_0 (pcie_7x_0.xci)]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v), pcie_7x_0_i : pcie_7x_0 (pcie_7x_0.xci)]", 10, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (ck): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pcie_7x_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pcie_7x_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pcie_7x_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pcie_7x_0'... 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 6803.160 ; gain = 0.000 ; free physical = 177 ; free virtual = 39169 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all pcie_7x_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 pcie_7x_0_synth_1 
+// Tcl Message: [Thu Oct  3 19:05:34 2019] Launched pcie_7x_0_synth_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/pcie_7x_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 669ms to process. Increasing delay to 2000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,406 MB. GUI used memory: 77 MB. Current time: 10/3/19 7:05:48 PM WEST
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// [Engine Memory]: 1,406 MB (+25671kb) [00:18:05]
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 25 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bx)
+// 'bn' command handler elapsed time: 27 seconds
+dismissDialog("Managing Output Products"); // bx (ck)
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC]", 19); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC]", 19, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 22); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC]", 19, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (C, c)
+// Elapsed time: 12 seconds
+setFileChooser("/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/constraints/xilinx_pcie_7x_ep_x4g2.xdc");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 25 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// bx (ck):  Add Constraint  : addNotify
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/constraints/xilinx_pcie_7x_ep_x4g2.xdc 
+dismissDialog("Add Constraint"); // bx (ck)
+selectCodeEditor("system_top.v", 189, 287); // ce (w, ck)
+selectCodeEditor("system_top.v", 189, 287, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.lang.NullPointerException
+*/
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ad (aj, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 136 MB (+12459kb) [00:19:21]
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 24); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 25); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xilinx_pcie_7x_ep_x4g2.xdc]", 27, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xilinx_pcie_7x_ep_x4g2.xdc]", 27, false, false, false, false, false, true); // B (D, ck) - Double Click
+floatView(PAResourceOtoP.PAViews_CODE, "xilinx_pcie_7x_ep_x4g2.xdc"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 20 seconds
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 214, 474); // ce (w, aG)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 'c'); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 388, 489); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 385, 502); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 297, 490); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 238, 515); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 295, 423); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 575, 440); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 240, 452); // ce (w, aG)
+// Elapsed time: 11 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, aG)
+// TclEventType: FILE_SET_CHANGE
+dockFrame(PAResourceOtoP.PAViews_CODE, "xilinx_pcie_7x_ep_x4g2.xdc"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true); // B (D, ck) - Node
+// [GUI Memory]: 143 MB (+126kb) [00:21:20]
+// Elapsed time: 41 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), pcie_7x_0_support_i : pcie_7x_0_support (pcie_7x_0_support.v), pcie_7x_0_i : pcie_7x_0 (pcie_7x_0.xci)]", 10); // B (D, ck)
+// A (ck): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Show IP Hierarchy"); // A (ck)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_2_1_ep_7x.v", 1); // k (j, ck)
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 4 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Oct  3 19:11:10 2019] Launched synth_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log [Thu Oct  3 19:11:10 2019] Launched impl_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-2531] port sys_clk_p is already defined [/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/src/hdl/system_top.v:118]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/src/hdl/system_top.v;-;;-;16;-;line;-;118;-;;-;16;-;"); // ah (O, ck)
+selectCodeEditor("system_top.v", 436, 233); // ce (w, ck)
+// [GUI Memory]: 153 MB (+3115kb) [00:24:23]
+// Elapsed time: 27 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-2531] port sys_clk_p is already defined [/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/src/hdl/system_top.v:118]. ]", 2); // ah (O, ck)
+selectCodeEditor("system_top.v", 203, 166); // ce (w, ck)
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC, kc705_system_constr.xdc]", 20, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC, system_constr.xdc]", 21, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC, system_constr.xdc]", 21, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectCodeEditor("system_top.v", 161, 175); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 309, 251); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 13 seconds
+selectCodeEditor("system_top.v", 164, 58); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 94, 274); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 3); // k (j, ck)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 347, 362); // ce (w, ck)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 228, 394); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 3); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,501 MB. GUI used memory: 72 MB. Current time: 10/3/19 7:14:48 PM WEST
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// [Engine Memory]: 1,501 MB (+25090kb) [00:27:05]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 889ms to process. Increasing delay to 4000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 7 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Oct  3 19:15:02 2019] Launched synth_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log [Thu Oct  3 19:15:02 2019] Launched impl_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+// Elapsed time: 250 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_MEM_inst : PIO_EP_MEM_ACCESS (PIO_EP_MEM_ACCESS.v), EP_MEM_inst : EP_MEM (EP_MEM.v)]", 15, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_MEM_inst : PIO_EP_MEM_ACCESS (PIO_EP_MEM_ACCESS.v), EP_MEM_inst : EP_MEM (EP_MEM.v)]", 15, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_MEM_inst : PIO_EP_MEM_ACCESS (PIO_EP_MEM_ACCESS.v), EP_MEM_inst : EP_MEM (EP_MEM.v)]", 15, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 33 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ck): TRUE
+// Elapsed time: 25 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, pcie_7x_0_synth_1, [Constraints 18-5210] No constraint will be written out.. ]", 7); // ah (O, ck)
+// Elapsed time: 247 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ck)
+// Elapsed time: 45 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 971ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 84 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aA (Z, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 3); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_2_1_ep_7x.v", 1); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7); // B (D, ck)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1); // B (D, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "875 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 38 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Vivado 12-584] No ports matched 'sys_rst_n'. [/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/constraints/xilinx_pcie_7x_ep_x4g2.xdc:92]. ]", 19, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/constraints/xilinx_pcie_7x_ep_x4g2.xdc;-;;-;16;-;line;-;92;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 12 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "xilinx_pcie_7x_ep_x4g2.xdc"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 24 seconds
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 2, 216); // ce (w, aG)
+// Elapsed time: 18 seconds
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 374, 415); // ce (w, aG)
+typeControlKey((HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 'c'); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 308, 54); // ce (w, aG)
+typeControlKey((HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 'v'); // ce (w, aG)
+// Elapsed time: 12 seconds
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 307, 53); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 227, 62); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 249, 95); // ce (w, aG)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, aG)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 1); // k (j, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 7, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("xilinx_pcie_2_1_ep_7x.v", 151, 159); // ce (w, ck)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ref_clk_"); // l (aQ, ck)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 459, 287); // ce (w, aG)
+// Elapsed time: 28 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "refclk_ib"); // l (aQ, ck)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 581, 63); // ce (w, aG)
+// Elapsed time: 32 seconds
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 618, 28); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 606, 388); // ce (w, aG)
+selectCodeEditor("xilinx_pcie_2_1_ep_7x.v", 74, 325); // ce (w, ck)
+selectCodeEditor("xilinx_pcie_7x_ep_x4g2.xdc", 605, 44); // ce (w, aG)
+// Elapsed time: 37 seconds
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // g (aQ, ck): TRUE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ck): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-324] index 2 out of range [/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/src/hdl/system_top.v:219]. ]", 14, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/src/hdl/system_top.v;-;;-;16;-;line;-;219;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("system_top.v", 218, 322); // ce (w, ck)
+selectCodeEditor("system_top.v", 120, 315); // ce (w, ck)
+selectCodeEditor("system_top.v", 119, 315, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("system_top.v", 217, 157); // ce (w, ck)
+selectCodeEditor("system_top.v", 266, 352); // ce (w, ck)
+selectCodeEditor("system_top.v", 266, 352, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("system_top.v", 163, 54); // ce (w, ck)
+selectCodeEditor("system_top.v", 163, 54, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 20 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aS)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aS (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+dockFrame(PAResourceOtoP.PAViews_CODE, "xilinx_pcie_7x_ep_x4g2.xdc"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_2_1_ep_7x.v", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_constr.xdc", 2); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 1); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_2_1_ep_7x.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_7x_ep_x4g2.xdc", 3); // k (j, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3331] design PIO_TX_ENGINE has unconnected port req_be[7]. ]", 16, true); // ah (O, ck) - Node
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 5 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Oct  3 19:36:04 2019] Launched synth_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log [Thu Oct  3 19:36:04 2019] Launched impl_1... Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,439 MB. GUI used memory: 82 MB. Current time: 10/3/19 7:44:48 PM WEST
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 819ms to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify

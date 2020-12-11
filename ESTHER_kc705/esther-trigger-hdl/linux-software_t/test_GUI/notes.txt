@@ -1,0 +1,57 @@
+./testDMAirq 1000
+pid 140395779315520, running on core 3
+opening device  device opened:
+device DMA opened
+dmaSize: 65536, saveSize: 65536
+pcktSize: 65536
+Memory mapped at address 0x7fb07085d000.
+Err pckt seq: 41, header: 0x29, lastheader: 0x29, footer: 0x29, magic: 0x54310100, fmagic: 0x0
+max_buffer_count: 0,  42 Npackets in 2205675 microseconds
+
+./testDMAirq 100
+pid 140595522864960, running on core 3
+opening device  device opened: 
+dmaSize: 32768, saveSize: 32768 
+pcktSize: 32768
+
+Err pckt: 84, magic: 0x0
+Err pckt seq: 84, header: 0x0, lastheader: 0x53, footer: 0x0, magic: 0x0, fmagic: 0x0
+read rc: 0 Npackets 85 in 11795 microseconds
+pcktSize: 65536
+Memory mapped at address 0x7f52a26df000.
+Err pckt seq: 693, header: 0x2B5, lastheader: 0x2B5, footer: 0xB5, magic: 0x54310100, fmagic: 0x0
+max_buffer_count: 0,  694 Npackets in 2383846 microseconds
+
+
+./testDMAirq 100
+pid 139872967857984, running on core 3
+opening device  device opened: 
+device DMA opened 
+dmaSize: 32768, saveSize: 32768 
+pcktSize: 32768
+Memory mapped at address 0x7f36b68c1000.
+dmaStatus: 0x58
+Err pckt magic: 0, header: 0x0, lastheader: 0x0, footer: 0x0 
+ Err pckt seq: 0, header: 0x0, lastheader: 0x0, footer: 0x0, magic: 0x0, fmagic: 0x54310100
+
+ xpm_fifo gives errors..
+ ./testDMAirq 1000                     
+pid 139641138640704, running on core 3
+opening device  device opened:
+device DMA opened
+dmaSize: 32768, saveSize: 32768
+pcktSize: 32768
+Memory mapped at address 0x7f00bc72f000.
+dmaStatus: 0x5E
+Err pckt seq: 349, header: 0x15D, lastheader: 0x15D, footer: 0x5D, magic: 0x54310100, fmagic: 0x0 
+
+./testDMAirq 100000 1                
+pid 139730299201344, running on core 3
+opening device  device opened:
+device DMA opened
+dmaSize: 32768, saveSize: 32768
+pcktSize: 32768
+Memory mapped at address 0x7f157ed52000.
+dmaStatus: 0x58
+max_buffer_count: 2,  100000 Npackets in 12799991 microseconds                 
+

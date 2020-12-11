@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec  9 16:57:08 2020
+# Process ID: 8701
+# Current directory: /home/francisco/kc705_changes/fmcjesdadc1_kc705.runs/synth_1
+# Command line: vivado -log system_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_top.tcl
+# Log file: /home/francisco/kc705_changes/fmcjesdadc1_kc705.runs/synth_1/system_top.vds
+# Journal file: /home/francisco/kc705_changes/fmcjesdadc1_kc705.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source system_top.tcl -notrace

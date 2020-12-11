@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Feb 26 17:31:11 2020
+# Process ID: 23035
+# Current directory: /home/francisco/kc705_changes/esther-trigger-hdl/linux-software/test
+# Command line: vivado
+# Log file: /home/francisco/kc705_changes/esther-trigger-hdl/linux-software/test/vivado.log
+# Journal file: /home/francisco/kc705_changes/esther-trigger-hdl/linux-software/test/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/francisco/kc705_changes/fmcjesdadc1_kc705.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 6236.504 ; gain = 260.383 ; free physical = 4414 ; free virtual = 43830
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Feb 26 17:53:32 2020] Launched synth_1...
+Run output will be captured here: /home/francisco/kc705_changes/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Wed Feb 26 17:53:32 2020] Launched impl_1...
+Run output will be captured here: /home/francisco/kc705_changes/fmcjesdadc1_kc705.runs/impl_1/runme.log
+file copy -force /home/francisco/kc705_changes/fmcjesdadc1_kc705.runs/impl_1/system_top.bit /home/francisco/FMCJESDADC1_XSCT/system_top.bit
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 26 18:50:55 2020...

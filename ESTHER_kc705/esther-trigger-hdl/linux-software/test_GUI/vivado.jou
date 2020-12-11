@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Mar  3 18:18:19 2020
+# Process ID: 2374
+# Current directory: /home/francisco/kc705_changes/esther-trigger-hdl/linux-software/test
+# Command line: vivado
+# Log file: /home/francisco/kc705_changes/esther-trigger-hdl/linux-software/test/vivado.log
+# Journal file: /home/francisco/kc705_changes/esther-trigger-hdl/linux-software/test/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/francisco/kc705_changes/fmcjesdadc1_kc705.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_design

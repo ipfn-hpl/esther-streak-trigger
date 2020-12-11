@@ -1,0 +1,396 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:02:38 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 3421
+License: Customer
+
+Current time: 	Mon Nov 04 11:12:44 WET 2019
+Time zone: 	Western European Time (Europe/Lisbon)
+
+OS: PRETTY_NAME="Debian GNU/Linux 10 (buster)"
+OS Version: 4.19.0-6-amd64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 13 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/Xilinx/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/home/Xilinx/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	bernardo
+User home directory: /home/bernardo
+User working directory: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/Xilinx/Vivado
+HDI_APPROOT: /home/Xilinx/Vivado/2018.2
+RDI_DATADIR: /home/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: /home/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/bernardo/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/bernardo/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /home/bernardo/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/home/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/vivado.log
+Vivado journal file location: 	/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3421-marte-sb1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@metis.ipfn.ist.utl.pt
+XILINX_DSP: /home/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: /home/Xilinx/Vivado/2018.2
+XILINX_VIVADO: /home/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: /home/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	117 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 798 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 17 MB (+15582kb) [00:00:12]
+// [Engine Memory]: 648 MB (+527755kb) [00:00:13]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 672ms to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// [GUI Memory]: 25 MB (+6764kb) [00:01:09]
+// [Engine Memory]: 716 MB (+37786kb) [00:01:09]
+// Tcl Message: start_gui 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 699ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 803 MB. GUI used memory: 36 MB. Current time: 11/4/19 11:12:46 AM WET
+// [GUI Memory]: 54 MB (+29996kb) [00:01:29]
+// [Engine Memory]: 804 MB (+54616kb) [00:01:29]
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr", 0); // q (O, ck)
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 847 MB. GUI used memory: 36 MB. Current time: 11/4/19 11:13:26 AM WET
+// [Engine Memory]: 855 MB (+10873kb) [00:02:09]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 893 MB. GUI used memory: 36 MB. Current time: 11/4/19 11:13:56 AM WET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 953 MB (+58531kb) [00:02:51]
+// [Engine Memory]: 1,002 MB (+1057kb) [00:02:53]
+// [GUI Memory]: 60 MB (+3416kb) [00:02:55]
+// [GUI Memory]: 64 MB (+663kb) [00:02:55]
+// [GUI Memory]: 78 MB (+11701kb) [00:02:55]
+// [Engine Memory]: 1,060 MB (+8424kb) [00:02:58]
+// [GUI Memory]: 87 MB (+4923kb) [00:02:59]
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,097 MB. GUI used memory: 64 MB. Current time: 11/4/19 11:14:18 AM WET
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:01:29 . Memory (MB): peak = 6235.777 ; gain = 243.074 ; free physical = 11421 ; free virtual = 46894 
+// Project name: fmcjesdadc1_kc705; location: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705; part: xc7k325tffg900-2
+// Elapsed time: 93 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,117 MB (+4289kb) [00:03:05]
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 95 MB (+4046kb) [00:03:11]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2); // B (D, ck)
+// PAPropertyPanels.initPanels (xilinx_pcie_2_1_ep_7x.v) elapsed time: 0.9s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [GUI Memory]: 100 MB (+136kb) [00:03:39]
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_2_1_ep_7x.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectCodeEditor("system_top.v", 56, 264); // ce (w, ck)
+selectCodeEditor("system_top.v", 56, 264, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 116, 262); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("system_top.v", 114, 261); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 10); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 10, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 10, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 10, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+// [GUI Memory]: 107 MB (+2240kb) [00:05:47]
+selectCodeEditor("system_top.v", 148, 265); // ce (w, ck)
+selectCodeEditor("system_top.v", 148, 265, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("system_top.v", 148, 265, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ad (aj, Popup.HeavyWeightWindow)
+// Elapsed time: 37 seconds
+selectCodeEditor("system_top.v", 62, 205); // ce (w, ck)
+selectCodeEditor("system_top.v", 98, 144); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 18, 159); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "system_top.v", 'v'); // ce (w, ck)
+// Elapsed time: 49 seconds
+selectCodeEditor("system_top.v", 20, 263); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("system_top.v", 123, 398); // ce (w, ck)
+selectCodeEditor("system_top.v", 123, 398, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 78, 140); // ce (w, ck)
+selectCodeEditor("system_top.v", 78, 140, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("system_top.v", 120, 382); // ce (w, ck)
+selectCodeEditor("system_top.v", 120, 382, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 92, 95); // ce (w, ck)
+selectCodeEditor("system_top.v", 92, 95, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("system_top.v", 90, 131); // ce (w, ck)
+selectCodeEditor("system_top.v", 90, 131, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("system_top.v", 154, 40); // ce (w, ck)
+selectCodeEditor("system_top.v", 154, 40, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("system_top.v", 84, 338); // ce (w, ck)
+selectCodeEditor("system_top.v", 84, 338, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("system_top.v", 218, 84); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 72, 97); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("system_top.v", 166, 101); // ce (w, ck)
+selectCodeEditor("system_top.v", 166, 101, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 104, 286); // ce (w, ck)
+selectCodeEditor("system_top.v", 104, 286, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("system_top.v", 54, 203); // ce (w, ck)
+selectCodeEditor("system_top.v", 106, 143); // ce (w, ck)
+// [GUI Memory]: 114 MB (+1700kb) [00:09:57]
+// Elapsed time: 24 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,203 MB (+31101kb) [00:10:08]
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,225 MB. GUI used memory: 67 MB. Current time: 11/4/19 11:21:31 AM WET
+// Elapsed time: 124 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), i_trigger_gen : trigger_gen (trigger_gen.v)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), i_trigger_gen : trigger_gen (trigger_gen.v)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("trigger_gen.v", 268, 297); // ce (w, ck)
+typeControlKey((HResource) null, "trigger_gen.v", 'c'); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 231, 261); // ce (w, ck)
+// Elapsed time: 52 seconds
+selectCodeEditor("trigger_gen.v", 84, 307); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 82, 307, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 42 seconds
+selectCodeEditor("trigger_gen.v", 72, 145); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 318, 137); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectCodeEditor("trigger_gen.v", 1062, 281); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 88, 145); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 88, 145, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("trigger_gen.v", 166, 142); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 166, 142, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "trigger_gen.v", 'c'); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 215, 97); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 215, 97, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("trigger_gen.v", 233, 95); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("trigger_gen.v", 835, 270); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "trigger_gen.v", 'c'); // ce (w, ck)
+// Elapsed time: 40 seconds
+selectCodeEditor("trigger_gen.v", 501, 263); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xilinx_pcie_2_1_ep_7x.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// Elapsed time: 77 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectCodeEditor("system_top.v", 475, 414); // ce (w, ck)
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("system_top.v", 127, 426); // ce (w, ck)
+selectCodeEditor("system_top.v", 142, 424); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("system_top.v", 153, 66); // ce (w, ck)
+selectCodeEditor("system_top.v", 126, 204); // ce (w, ck)
+selectCodeEditor("system_top.v", 126, 204, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "system_top.v", 'c'); // ce (w, ck)
+// [GUI Memory]: 121 MB (+427kb) [00:21:21]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("system_top.v", 218, 425); // ce (w, ck)
+selectCodeEditor("system_top.v", 139, 430); // ce (w, ck)
+selectCodeEditor("system_top.v", 139, 430, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("system_top.v", 271, 432); // ce (w, ck)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 724ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// [Engine Memory]: 1,269 MB (+6488kb) [00:22:52]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,253 MB. GUI used memory: 67 MB. Current time: 11/4/19 11:34:11 AM WET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("trigger_gen.v", 99, 260); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 207, 263); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 97, 260); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("trigger_gen.v", 324, 304); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 310, 297); // ce (w, ck)
+typeControlKey((HResource) null, "trigger_gen.v", 'c'); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 34, 328); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 60, 334); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 39, 341); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 39, 341, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("trigger_gen.v", 302, 336); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 230, 293); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 230, 293, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "trigger_gen.v", 'c'); // ce (w, ck)
+selectCodeEditor("trigger_gen.v", 272, 333); // ce (w, ck)
+// Elapsed time: 20 seconds
+typeControlKey((HResource) null, "trigger_gen.v", 'c'); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("trigger_gen.v", 261, 339); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+selectCodeEditor("system_top.v", 116, 430); // ce (w, ck)
+selectCodeEditor("system_top.v", 269, 423); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("system_top.v", 342, 427); // ce (w, ck)
+selectCodeEditor("system_top.v", 132, 423); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// Elapsed time: 33 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2, true); // B (D, ck) - Node
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,281 MB. GUI used memory: 68 MB. Current time: 11/4/19 11:37:56 AM WET
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 918ms to process. Increasing delay to 4000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// A (ck): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 8 seconds
+// [Engine Memory]: 1,353 MB (+20921kb) [00:26:51]
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov  4 11:38:11 2019] Launched synth_1... Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log [Mon Nov  4 11:38:11 2019] Launched impl_1... Run output will be captured here: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 2); // k (j, ck)
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 130 MB (+3310kb) [00:38:53]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 4240ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 645 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, control_word_bits.vh]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, control_word_bits.vh]", 2, false); // B (D, ck)
+// [GUI Memory]: 140 MB (+4279kb) [00:39:12]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, control_word_bits.vh]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 821 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "trigger_gen.v", 4); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,321 MB. GUI used memory: 60 MB. Current time: 11/4/19 12:08:01 PM WET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,346 MB. GUI used memory: 59 MB. Current time: 11/4/19 12:26:21 PM WET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// D (ck): Invalid Top Module: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE

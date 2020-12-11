@@ -1,0 +1,162 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:02:38 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 26115
+License: Customer
+
+Current time: 	Thu Oct 31 10:55:52 WET 2019
+Time zone: 	Western European Time (Europe/Lisbon)
+
+OS: PRETTY_NAME="Debian GNU/Linux 10 (buster)"
+OS Version: 4.19.0-6-amd64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0.0
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 13 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/Xilinx/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/home/Xilinx/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	bernardo
+User home directory: /home/bernardo
+User working directory: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/Xilinx/Vivado
+HDI_APPROOT: /home/Xilinx/Vivado/2018.2
+RDI_DATADIR: /home/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: /home/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/bernardo/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/bernardo/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /home/bernardo/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/home/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/vivado.log
+Vivado journal file location: 	/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-26115-marte-sb1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@metis.ipfn.ist.utl.pt
+XILINX_DSP: /home/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: /home/Xilinx/Vivado/2018.2
+XILINX_VIVADO: /home/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: /home/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	160 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 838 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 65 MB (+65257kb) [00:00:08]
+// [Engine Memory]: 837 MB (+725805kb) [00:00:08]
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr", 0); // q (O, ck)
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 32 MB. Current time: 10/31/19 10:55:55 AM WET
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 937 MB (+61159kb) [00:00:13]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,037 MB (+55579kb) [00:00:20]
+// [GUI Memory]: 74 MB (+6902kb) [00:00:22]
+// [GUI Memory]: 80 MB (+2351kb) [00:00:22]
+// [GUI Memory]: 85 MB (+211kb) [00:00:22]
+// [GUI Memory]: 91 MB (+1693kb) [00:00:23]
+// [GUI Memory]: 96 MB (+1030kb) [00:00:24]
+// Tcl Message: open_project /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 6215.906 ; gain = 222.785 ; free physical = 4172 ; free virtual = 42595 
+// [Engine Memory]: 1,104 MB (+15699kb) [00:00:26]
+// Project name: fmcjesdadc1_kc705; location: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705; part: xc7k325tffg900-2
+// [GUI Memory]: 107 MB (+6348kb) [00:00:26]
+// Elapsed time: 16 seconds
+dismissDialog("Open Project"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 59 MB. Current time: 10/31/19 10:56:10 AM WET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (system_top.v) elapsed time: 0.2s
+// Elapsed time: 225 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [Engine Memory]: 1,159 MB (+755kb) [00:04:14]
+// Elapsed time: 238 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 1); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 60 MB. Current time: 10/31/19 11:26:10 AM WET
+// [GUI Memory]: 113 MB (+201kb) [00:42:33]
+// Elapsed time: 3010 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v)]", 10); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v)]", 11); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v)]", 12); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), pci_dma_engine_inst : pci_dma_engine (pci_dma_engine.v)]", 16, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), pci_dma_engine_inst : pci_dma_engine (pci_dma_engine.v)]", 16, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 59 MB. Current time: 10/31/19 11:56:10 AM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 59 MB. Current time: 10/31/19 12:26:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 58 MB. Current time: 10/31/19 12:56:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 59 MB. Current time: 10/31/19 1:26:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 59 MB. Current time: 10/31/19 1:56:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 59 MB. Current time: 10/31/19 2:26:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,170 MB. GUI used memory: 59 MB. Current time: 10/31/19 2:56:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 58 MB. Current time: 10/31/19 3:26:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 58 MB. Current time: 10/31/19 3:56:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 59 MB. Current time: 10/31/19 4:26:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 59 MB. Current time: 10/31/19 4:56:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 59 MB. Current time: 10/31/19 5:26:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 58 MB. Current time: 10/31/19 5:56:10 PM WET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,186 MB. GUI used memory: 59 MB. Current time: 10/31/19 6:26:10 PM WET
+// Elapsed time: 24637 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "pci_dma_engine.v"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 21 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "pci_dma_engine.v"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 1); // k (j, ck)
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,202 MB. GUI used memory: 59 MB. Current time: 10/31/19 6:46:40 PM WET
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v)]", 8); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_REGS_inst : PIO_EP_SHAPI_REGS (PIO_EP_SHAPI_REGS.v)]", 13, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), xilinx_pcie_i : xilinx_pcie_2_1_ep_7x (xilinx_pcie_2_1_ep_7x.v), app : pcie_app_7x (pcie_app_7x.v), PIO : PIO (PIO.v), PIO_EP_inst : PIO_EP (PIO_EP.v), EP_REGS_inst : PIO_EP_SHAPI_REGS (PIO_EP_SHAPI_REGS.v)]", 13, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 598 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), i_trigger_gen : trigger_gen (trigger_gen.v)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v), i_trigger_gen : trigger_gen (trigger_gen.v)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,218 MB. GUI used memory: 60 MB. Current time: 10/31/19 6:57:05 PM WET
+// [Engine Memory]: 1,218 MB (+572kb) [08:01:25]
+// Elapsed time: 119 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_top.v", 1); // k (j, ck)

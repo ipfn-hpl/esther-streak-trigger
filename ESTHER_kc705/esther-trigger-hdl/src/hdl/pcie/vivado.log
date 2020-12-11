@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Oct  3 18:47:35 2019
+# Process ID: 26363
+# Current directory: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie
+# Command line: vivado
+# Log file: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/vivado.log
+# Journal file: /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_ep.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project /home/bernardo/FPGA/ESTHER_TRIGGER/pcie_ep/pcie_7x_0_ex/pcie_7x_0_ex.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bernardo/FPGA/ad-ipfn-hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 6223.109 ; gain = 58.172 ; free physical = 177 ; free virtual = 39169
+update_compile_order -fileset sources_1
+add_files -norecurse {/home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_TX_ENGINE.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/xilinx_pcie_2_1_ep_7x.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_EP_MEM_ACCESS.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_RX_ENGINE.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_TO_CTRL.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/PIO_EP.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_7x_0_pipe_clock.v /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_7x_0_support.v}
+update_compile_order -fileset sources_1
+add_files -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/pcie_app_7x.v
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+add_files -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/hdl/pcie/EP_MEM.v
+add_files -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci
+export_ip_user_files -of_objects  [get_files  /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci] -lib_map_path [list {modelsim=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/modelsim} {questa=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/questa} {ies=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/ies} {xcelium=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/xcelium} {vcs=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/vcs} {riviera=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/riviera}] -force -quiet
+generate_target all [get_files  /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pcie_7x_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pcie_7x_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pcie_7x_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pcie_7x_0'...
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 6803.160 ; gain = 0.000 ; free physical = 177 ; free virtual = 39169
+catch { config_ip_cache -export [get_ips -all pcie_7x_0] }
+export_ip_user_files -of_objects [get_files /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci]
+launch_runs -jobs 4 pcie_7x_0_synth_1
+[Thu Oct  3 19:05:34 2019] Launched pcie_7x_0_synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/pcie_7x_0_synth_1/runme.log
+export_simulation -of_objects [get_files /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/ip/pcie_7x_0.xci] -directory /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.ip_user_files/sim_scripts -ip_user_files_dir /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.ip_user_files -ipstatic_source_dir /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/modelsim} {questa=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/questa} {ies=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/ies} {xcelium=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/xcelium} {vcs=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/vcs} {riviera=/home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+add_files -fileset constrs_1 -norecurse /home/bernardo/FPGA/ESTHER_TRIGGER/hdl/projects/fmcjesdadc1/kc705/esther-trigger-hdl/src/constraints/xilinx_pcie_7x_ep_x4g2.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct  3 19:11:10 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Thu Oct  3 19:11:10 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct  3 19:15:02 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Thu Oct  3 19:15:02 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct  3 19:36:04 2019] Launched synth_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/synth_1/runme.log
+[Thu Oct  3 19:36:04 2019] Launched impl_1...
+Run output will be captured here: /home/bernardo/FPGA/ad-ipfn-hdl/projects/fmcjesdadc1/kc705/fmcjesdadc1_kc705.runs/impl_1/runme.log
