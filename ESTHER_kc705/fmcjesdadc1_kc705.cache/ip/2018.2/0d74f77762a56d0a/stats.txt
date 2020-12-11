@@ -1,4 +1,0 @@
-NumberHits:1
-Timestamp: Mon Mar 09 15:42:13 UTC 2020
-VLNV: xilinx.com:ip:pcie_7x:3.3
-SynthRuntime: 63

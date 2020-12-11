@@ -1,4 +1,0 @@
-NumberHits:0
-Timestamp: Tue Mar 10 16:53:20 UTC 2020
-VLNV: xilinx.com:ip:fifo_generator:13.2
-SynthRuntime: 142
